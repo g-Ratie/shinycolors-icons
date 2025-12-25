@@ -7,18 +7,16 @@ export const Shhis: React.FC<IconProps> = ({
 	className,
 	style,
 }) => {
-	const svgProps: React.SVGProps<SVGSVGElement> = {
-		width: size,
-		height: size,
-		viewBox: "0 0 24 24",
-		fill: "none",
-		xmlns: "http://www.w3.org/2000/svg",
-		className,
-		style: { verticalAlign: "middle", ...style },
-	};
-
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 480 479">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={size}
+			height={size}
+			viewBox="0 0 480 479"
+			className={className}
+			style={{ verticalAlign: "middle", ...style }}
+		>
+			<title>Shhis icon</title>
 			<path
 				fill="#615768"
 				d="M209 93.5c-16.8 6.8-42.2 17.2-56.5 23.2l-26 10.8-5.2 12.2c-9.8 22.8-40.3 98.2-40.3 99.5 0 .7 3.6 10.1 8.1 20.8 4.4 10.7 14.4 34.8 22.1 53.5s15 35 16.2 36.2c1.1 1.2 7.7 4.6 14.6 7.6 19.2 8.3 97.5 40.7 98.5 40.7.5 0 26.2-10.4 57.1-23.2l56.2-23.2 21.5-53c11.8-29.2 22.1-54.8 22.8-56.8 1.5-4.3 2.3-2.2-26.2-67.8-23.1-53.5-19.6-47.5-30.9-52.2-14-5.9-89.6-36.2-96-38.6l-5.6-2zm82.1 19.8c51 21.2 51.4 21.4 53.6 25.3C347.8 144.3 386 237 386 239c0 1-.8 3.7-1.9 6.1-1 2.4-10.3 24.9-20.6 49.9s-19.3 46-19.9 46.7c-1.1 1.2-97.9 41.8-102.2 42.9-1.6.4-17.5-5.7-52.4-20.2-27.5-11.4-50.7-21.2-51.5-21.8s-5.3-10.1-9.9-21.1C104.7 267 94 240.5 94 238.7c0-1.7 31.9-79.5 39.6-96.5 2.2-4.7 4.1-7.5 5.6-8.2 6.1-2.5 100.3-41.8 100.4-41.9s23.3 9.5 51.5 21.2"

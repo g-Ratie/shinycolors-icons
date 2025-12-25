@@ -7,18 +7,16 @@ export const IlluminationStars: React.FC<IconProps> = ({
 	className,
 	style,
 }) => {
-	const svgProps: React.SVGProps<SVGSVGElement> = {
-		width: size,
-		height: size,
-		viewBox: "0 0 24 24",
-		fill: "none",
-		xmlns: "http://www.w3.org/2000/svg",
-		className,
-		style: { verticalAlign: "middle", ...style },
-	};
-
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 486 494">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={size}
+			height={size}
+			viewBox="0 0 486 494"
+			className={className}
+			style={{ verticalAlign: "middle", ...style }}
+		>
+			<title>IlluminationStars icon</title>
 			<path
 				fill="#615768"
 				d="M211 85c-16.9 3.1-27.6 6.6-42.7 14.1-16.6 8.2-27.4 15.8-39.3 27.8-14.6 14.7-20.6 23.2-30.5 43.1-11 22.1-16.3 44.7-17.2 73-.9 30.6 4.2 55.8 16.8 81.6 21.5 44.2 59.6 73.1 109.6 83.3 24.3 5 45.3 5 69.5.1 55.6-11.4 97.6-47 117.3-99.5 2.7-7.3 6.4-21.2 8.6-33 2.1-10.7 1.8-48.4-.4-60.2-12.9-68.1-57.1-115.3-121.3-129.4-14.5-3.2-55.1-3.7-70.4-.9m57 13.6c33.9 5.3 70.3 26.9 93 55 26.9 33.5 37.7 80.3 28.5 123.9-5.7 27.1-20.5 55.5-38.8 74.3-22.7 23.4-54.7 39.4-88.5 44.3-10.9 1.5-39.1.6-49.2-1.6-28-6.1-54.8-20.6-74.6-40.2-22-21.8-35.6-46-42.5-76.2-2.6-11.1-3.6-38.9-2-51.4C103.1 158 159.1 104.3 229.3 97c10.1-1 26.1-.4 38.7 1.6"

@@ -13,18 +13,16 @@ export const StrayLight: React.FC<AddLineProps> = ({
 	className,
 	style,
 }) => {
-	const svgProps: React.SVGProps<SVGSVGElement> = {
-		width: size,
-		height: size,
-		viewBox: "0 0 24 24",
-		fill: "none",
-		xmlns: "http://www.w3.org/2000/svg",
-		className,
-		style: { verticalAlign: "middle", ...style },
-	};
-
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 396 396">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width={size}
+			height={size}
+			viewBox="0 0 396 396"
+			className={className}
+			style={{ verticalAlign: "middle", ...style }}
+		>
+			<title>StrayLight icon</title>
 			<path
 				fill="#615768"
 				d="M178.5 68c-25.9 3.7-51.6 16.4-71.4 35.4-18.2 17.6-30 37.8-36.9 63.5-2.3 8.8-2.5 11.3-2.6 30.6 0 23.9 1.1 30.5 8.5 49 17 42.4 52 71.2 98.2 80.7 14 2.8 40.3 2.1 54.9-1.6 48.5-12.3 84.6-48.9 97-98.3 1.9-7.6 2.2-11.5 2.2-29.3 0-23-1.1-29.4-7.9-47.2-13.2-34.1-40-61.2-73.9-74.8-15.7-6.3-25.3-8.1-44.6-8.5-9.6-.2-20.2 0-23.5.5m48.7 13.3c46.9 12.3 82.9 51.3 89.8 97.2 1.8 11.7 1.6 34.5-.4 43.3-5.5 25.2-17.3 46.2-35.9 64-37.3 35.6-91.9 43.3-138.1 19.4-53-27.4-78.1-91-58.1-147.2 14.3-39.8 48.5-69.2 91-78.1 13.4-2.8 38.3-2.1 51.7 1.4"
