@@ -1,13 +1,8 @@
-import React from "react";
+import type React from "react";
+import type { IconProps } from "../types";
 
-export interface AddLineProps {
-  size?: number | string;
-  color?: string;
-  className?: string;
-  style?: React.CSSProperties;
-}
 
-export const IlluminationStars: React.FC<AddLineProps> = ({
+export const LAntica: React.FC<IconProps> = ({
   size = 24,
   color = "currentColor",
   className,
