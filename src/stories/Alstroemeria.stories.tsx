@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Alstromeria } from "../../lib/icons/Alstroemeria";
+import { Alstroemeria } from "../../lib/icons/Alstroemeria";
 
 const meta = {
   title: "Icons/Alstroemeria",
-  component: Alstromeria,
+  component: Alstroemeria,
   parameters: {
     layout: "centered",
   },
@@ -28,7 +28,7 @@ const meta = {
       description: "インラインスタイル",
     },
   },
-} satisfies Meta<typeof Alstromeria>;
+} satisfies Meta<typeof Alstroemeria>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
