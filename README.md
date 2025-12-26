@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/shinycolors-icons.svg)](https://badge.fury.io/js/shinycolors-icons)
+![担当](https://img.shields.io/badge/担当-小宮果穂,八宮めぐる-f29317)
 # shinycolors-icons
 
 アイドルマスター シャイニーカラーズのユニットアイコンセットのReactコンポーネントライブラリ
@@ -21,8 +23,8 @@ function App() {
   return (
     <div>
       <Alstroemeria />
+      <HokagoClimaxGirls size={24} />
       <Cometik size={32} color="#1A1A1C" />
-      <HokagoClimaxGirls size={24} aria-label="ロゴ" />
     </div>
   );
 }
