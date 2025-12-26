@@ -20,6 +20,7 @@
     "dev": "vite",
     "build": "tsc --project tsconfig.build.json && vite build",
     "preview": "vite preview",
+    "check:fix": "biome check --write",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

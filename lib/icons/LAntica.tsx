@@ -1,7 +1,6 @@
 import type React from "react";
 import type { IconProps } from "../types";
 
-
 export const LAntica: React.FC<IconProps> = ({
   size = 24,
   color = "currentColor",
@@ -13,7 +12,7 @@ export const LAntica: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 503 503"
+      viewBox="0 0 500 500"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >
