@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/shinycolors-icons.svg)](https://badge.fury.io/js/shinycolors-icons)
+![担当](https://img.shields.io/badge/担当-小宮果穂,八宮めぐる-f29317)
 # shinycolors-icons
 
 アイドルマスター シャイニーカラーズのユニットアイコンセットのReactコンポーネントライブラリ
