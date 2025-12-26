@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {
-  Alstromeria,
+  Alstroemeria,
   Cometik,
   HokagoClimaxGirls,
   IlluminationStars,
@@ -19,7 +19,7 @@ function App() {
 
       <div style={{ marginTop: "2rem" }}>
         <h2>HokagoClimaxGirls Icon</h2>
-        <Alstromeria size={size} color={color} />
+        <Alstroemeria size={size} color={color} />
         <Cometik size={size} color={color} />
         <HokagoClimaxGirls />
         <IlluminationStars size={size} color={color} />
