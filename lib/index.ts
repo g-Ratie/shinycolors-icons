@@ -3,6 +3,8 @@ export { Cometik } from "./icons/Cometik";
 export { HokagoClimaxGirls } from "./icons/HokagoClimaxGirls";
 export { IlluminationStars } from "./icons/IlluminationStars";
 export { LAntica } from "./icons/LAntica";
+export { Noctchill } from "./icons/Noctchill";
 export { Shhis } from "./icons/Shhis";
+export { ShinyColors } from "./icons/ShinyColors";
 export { StrayLight } from "./icons/StrayLight";
 export type { IconProps } from "./types";
