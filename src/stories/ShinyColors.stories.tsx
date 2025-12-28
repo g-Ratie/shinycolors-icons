@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { IlluminationStars } from "../../lib/icons/IlluminationStars";
+import { ShinyColors } from "../../lib/icons/ShinyColors";
 
 const meta = {
-  title: "Icons/IlluminationStars",
-  component: IlluminationStars,
+  title: "Icons/ShinyColors",
+  component: ShinyColors,
   parameters: {
     layout: "centered",
   },
@@ -27,7 +27,7 @@ const meta = {
       description: "インラインスタイル",
     },
   },
-} satisfies Meta<typeof IlluminationStars>;
+} satisfies Meta<typeof ShinyColors>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

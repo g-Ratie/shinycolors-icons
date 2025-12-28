@@ -17,7 +17,6 @@ const meta = {
     color: {
       control: { type: "color" },
       description: "アイコンの色",
-      defaultValue: "currentColor",
     },
     className: {
       control: { type: "text" },
@@ -36,14 +35,12 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     size: 24,
-    color: "currentColor",
   },
 };
 
 export const Large: Story = {
   args: {
     size: 64,
-    color: "currentColor",
   },
 };
 
