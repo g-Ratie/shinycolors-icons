@@ -1,13 +1,7 @@
 import type React from "react";
+import type { IconProps } from "../types";
 
-export interface AddLineProps {
-  size?: number | string;
-  color?: string;
-  className?: string;
-  style?: React.CSSProperties;
-}
-
-export const StrayLight: React.FC<AddLineProps> = ({
+export const StrayLight: React.FC<IconProps> = ({
   size = 24,
   color,
   className,
@@ -18,7 +12,7 @@ export const StrayLight: React.FC<AddLineProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 500 500"
+      viewBox="68 68 260 260"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >

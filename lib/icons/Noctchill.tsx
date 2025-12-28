@@ -11,7 +11,7 @@ export const Noctchill: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 1000 1000"
+      viewBox="55 27 730 730"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >

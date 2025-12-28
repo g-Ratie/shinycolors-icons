@@ -12,7 +12,7 @@ export const ShinyColors: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 1000 1000"
+      viewBox="0 0 800 800"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >
