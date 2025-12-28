@@ -1,4 +1,4 @@
-export * from "./icons/Alstroemeria";
+export { Alstroemeria } from "./icons/Alstroemeria";
 export { Cometik } from "./icons/Cometik";
 export { HokagoClimaxGirls } from "./icons/HokagoClimaxGirls";
 export { IlluminationStars } from "./icons/IlluminationStars";
