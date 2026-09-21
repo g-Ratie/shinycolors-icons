@@ -12,7 +12,7 @@ export const Cometik: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="83 83 335 335"
+      viewBox="81 81 337 337"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >

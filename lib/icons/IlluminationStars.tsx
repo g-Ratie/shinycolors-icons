@@ -12,7 +12,7 @@ export const IlluminationStars: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="85 85 323 323"
+      viewBox="78 82 330 330"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >

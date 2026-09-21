@@ -12,7 +12,7 @@ export const HokagoClimaxGirls: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="-3 0 340 310"
+      viewBox="-3 0 340 332"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >

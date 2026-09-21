@@ -12,7 +12,7 @@ export const StrayLight: React.FC<IconProps> = ({
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="68 68 260 260"
+      viewBox="66 66 264 264"
       className={className}
       style={{ verticalAlign: "middle", ...style }}
     >
